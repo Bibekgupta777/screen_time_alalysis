@@ -1,0 +1,89 @@
+/* ===============================
+   ✅ DROPDOWN CLARITY (Light & Dark)
+================================== */
+.Select-control, .Select-menu-outer {
+    background-color: white !important;
+    color: black !important;
+    border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+body.light-mode .Select-control,
+body.light-mode .Select-menu-outer {
+    background-color: white !important;
+    color: black !important;
+}
+
+body.dark-mode .Select-control,
+body.dark-mode .Select-menu-outer {
+    background-color: #222 !important;
+    color: #fff !important;
+    border: 1px solid #444;
+}
+
+/* ===============================
+   ✅ TAB BUTTON STYLING (Black theme)
+================================== */
+.tab {
+    background-color: #000000 !important;   /* Black background */
+    color: #ffffff !important;              /* White text */
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.3s, color 0.3s;
+}
+
+.tab--selected {
+    background-color: #1f1f1f !important;   /* Darker black for active tab */
+    color: #00ffcc !important;              /* Cyan text */
+    font-weight: bold;
+    border-bottom: 3px solid #00ffcc;       /* Underline */
+}
+
+.tab:hover {
+    background-color: #333333 !important;
+    color: #00ffcc !important;
+    cursor: pointer;
+}
+
+/* ===============================
+   ✅ GRAPH HOVER ANIMATION
+================================== */
+.dash-graph {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+.dash-graph:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ===============================
+   ✅ TAB SWITCHING ANIMATION
+================================== */
+.tab-content {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+/* ===============================
+   ✅ DOWNLOAD BUTTONS
+================================== */
+.download-btn {
+    background-color: #1f77b4;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    text-align: center;
+}
+.download-btn:hover {
+    background-color: #145a8a;
+}

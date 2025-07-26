@@ -1,0 +1,3 @@
+APA-STYLE STATISTICAL RESULTS (Male & Female Only):
+T-test: t = -0.90, p = 0.3707, Cohen's d = -0.00
+ANOVA: F = 0.33, p = 0.7212, Eta² = 0.25

@@ -1,0 +1,7 @@
+gender,screen_time_group,daily_screen_time_hours,stress_level,mental_health_score
+Female,Low,2.05,5.01,49.7
+Female,Moderate,6.05,5.0,49.45
+Female,High,11.53,5.0,49.53
+Male,Low,2.05,4.99,49.61
+Male,Moderate,6.05,4.99,49.44
+Male,High,11.53,5.0,49.43
